@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -47,7 +48,7 @@
             android:id="@+id/welcomingSection"
             android:layout_width="352dp"
             android:layout_height="36dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="45dp"
             android:fontFamily="@font/inter_18pt_bold"
             android:text="Selamat Datang di SEA Catering!"
             android:textColor="@color/white"
@@ -59,8 +60,8 @@
 
         <LinearLayout
             android:id="@+id/welcomingSectionDesc"
-            android:layout_width="390dp"
-            android:layout_height="229dp"
+            android:layout_width="407dp"
+            android:layout_height="397dp"
             android:background="@drawable/background_card_bg"
             android:gravity="center_horizontal"
             app:layout_constraintEnd_toEndOf="parent"
@@ -68,16 +69,18 @@
             app:layout_constraintTop_toBottomOf="@+id/welcomingSection">
 
             <TextView
-                android:layout_width="326dp"
-                android:layout_height="193dp"
+                android:layout_width="343dp"
+                android:layout_height="357dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/inter_18pt_regular"
                 android:justificationMode="inter_word"
                 android:lineSpacingExtra="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
                 android:text="SEA Catering menghadirkan makanan sehat yang bisa dikustomisasi sesuai selera Anda. Kami melayani pengiriman ke seluruh kota besar di Indonesia, memastikan Anda bisa menikmati hidangan bergizi kapan saja dan di mana saja."
                 android:textAlignment="viewStart"
                 android:textColor="@color/Onyx"
-                android:textSize="18sp" />
+                android:textSize="24sp" />
         </LinearLayout>
 
 
@@ -98,6 +101,7 @@
 
         <LinearLayout
             android:id="@+id/sectionCard"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/background_card_bg"

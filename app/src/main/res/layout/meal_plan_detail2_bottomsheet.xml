@@ -13,13 +13,17 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:fontFamily="@font/montserrat_bold"/>
-
+    <ImageView
+        android:layout_width="337dp"
+        android:layout_height="329dp"
+        android:src="@drawable/premiumplan" />
     <TextView
         android:id="@+id/txt_plan_detail_desc2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_18pt_regular"
-        android:text="Isi lengkap plan: 3x makanan sehat per hari, dikirim setiap pagi selama 7 hari."
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="4dp"
+        android:text="Premium Plan dirancang untuk kamu yang menginginkan kombinasi rasa dan nutrisi yang maksimal. Paket ini berisi 2 kali makan sehat setiap hari (siang &amp; malam) selama 6 hari kerja, dengan pilihan menu yang lebih bervariasi. Termasuk snack sehat dan minuman herbal setiap hari. Ideal untuk pekerja aktif atau keluarga kecil yang ingin hidup lebih sehat."
         android:layout_marginTop="12dp" />
-
 </LinearLayout>

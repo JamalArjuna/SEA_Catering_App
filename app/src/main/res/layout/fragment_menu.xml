@@ -45,14 +45,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rp 120.000 / minggu"
+                    android:text="Rp 200.000 / minggu"
                     android:textSize="16sp"
                     android:textColor="@android:color/holo_green_dark" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cocok untuk pemula yang ingin mencoba makan sehat."
+                    android:text="Paket hemat dengan menu sehat dan lezat untuk kebutuhan harian."
                     android:layout_marginTop="8dp" />
 
                 <LinearLayout
@@ -112,7 +112,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/basicplan" />
+                    android:src="@drawable/premiumplan" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -125,14 +125,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rp 120.000 / minggu"
+                    android:text="Rp 350.000 / minggu"
                     android:textSize="16sp"
                     android:textColor="@android:color/holo_green_dark" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cocok untuk pemula yang ingin mencoba makan sehat."
+                    android:text="Paket lengkap dengan variasi menu dan porsi lebih besar."
                     android:layout_marginTop="8dp" />
 
                 <LinearLayout
@@ -192,7 +192,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/basicplan" />
+                    android:src="@drawable/dietplan" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -205,14 +205,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rp 120.000 / minggu"
+                    android:text="Rp 400.000 / minggu"
                     android:textSize="16sp"
                     android:textColor="@android:color/holo_green_dark" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cocok untuk pemula yang ingin mencoba makan sehat."
+                    android:text="Paket khusus untuk kamu yang ingin menurunkan atau menjaga berat badan."
                     android:layout_marginTop="8dp" />
 
                 <LinearLayout

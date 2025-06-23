@@ -14,12 +14,17 @@
         android:textStyle="bold"
         android:fontFamily="@font/montserrat_bold"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="375dp"
+        android:src="@drawable/premiumplan" />
+
     <TextView
         android:id="@+id/txt_plan_detail_desc3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_18pt_regular"
-        android:text="Isi lengkap plan: 3x makanan sehat per hari, dikirim setiap pagi selama 7 hari."
+        android:text="Diet Plan difokuskan untuk mendukung program diet kamu dengan menu rendah kalori, rendah karbohidrat, dan tinggi serat. Kamu akan mendapatkan 2 kali makan + 1 snack per hari selama 6 hari, dirancang oleh ahli gizi untuk menjaga asupan harian tetap seimbang. Cocok untuk kamu yang sedang diet keto, low-calorie, atau clean eating."
         android:layout_marginTop="12dp" />
 
 </LinearLayout>
