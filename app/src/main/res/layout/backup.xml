@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Pigmen_Green">
+    <!--    android:paddingRight="24dp"-->
+    <!--    android:paddingLeft="24dp"-->
+    <!--    android:paddingTop="12dp"-->
+    <!--    android:paddingBottom="12dp"-->
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/service1"
+        android:layout_width="321dp"
+        android:layout_height="448dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="@color/Cornsilk"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteY="157dp">
+
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="472dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="Gambar Services"
+                android:paddingRight="45dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/service1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Santapan Sesuai Selera Anda"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:fontFamily="@font/inter_18pt_regular"
+                android:text="Kustomisasi makanan memungkinkan Anda menciptakan hidangan sempurna. Pilih bahan, porsi, dan tingkat pedas sesuai selera dan diet Anda. Makan enak dan sehat, sesuai keinginan!"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/card_button_service1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/poopins_bold"
+                android:background="@drawable/button_card"
+                android:text="Pesan Sekarang"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

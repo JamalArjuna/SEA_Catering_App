@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txt_plan_detail_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Premium Plan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"/>
+
+    <TextView
+        android:id="@+id/txt_plan_detail_desc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_18pt_regular"
+        android:text="Isi lengkap plan: 3x makanan sehat per hari, dikirim setiap pagi selama 7 hari."
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

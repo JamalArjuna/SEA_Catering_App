@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Pigmen_Green">#4CAF50</color>
+    <color name="Tea_Green">#C8E6C9</color>
+    <color name="Cornsilk">#FFF8E1</color>
+    <color name="Coral">#FF7043</color>
+    <color name="CoralDark">#D55C37</color>
+    <color name="Onyx">#424242</color>
+    <color name="WhatsApp_Green">#25D366</color>
+    <color name="WhatsApp_Clicked">#24BC5C</color>
+    <color name="Mantis">#66BB6A</color>
+    <color name="Mantis_clicked">#58A15C</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Beranda"
+        android:icon="@drawable/home_24"
+        android:iconTint="@color/Coral"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/nav_about"
+        android:title="Menu"
+        android:icon="@drawable/menu_24"
+        android:iconTint="@color/Coral"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/nav_subscription"
+        android:title="Subscription"
+        android:icon="@drawable/subscription_24"
+        android:iconTint="@color/Coral"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Kontak"
+        android:icon="@drawable/contact_us_24"
+        android:iconTint="@color/Coral"
+        android:checkable="true"
+
+        />
+</menu>

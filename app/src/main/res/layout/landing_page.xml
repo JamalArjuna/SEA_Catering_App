@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Pigmen_Green">
+
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="SEA Catering"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Healthy Meals, Anytime, Anywhere"
+            android:textColor="@color/Cornsilk"
+            android:textSize="15sp"
+            android:layout_marginTop="-15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header" />
+
+        <TextView
+            android:id="@+id/welcomingSection"
+            android:layout_width="352dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/inter_18pt_bold"
+            android:text="Selamat Datang di SEA Catering!"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slogan" />
+
+        <LinearLayout
+            android:id="@+id/welcomingSectionDesc"
+            android:layout_width="390dp"
+            android:layout_height="229dp"
+            android:background="@drawable/background_card_bg"
+            android:gravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomingSection">
+
+            <TextView
+                android:layout_width="326dp"
+                android:layout_height="193dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_18pt_regular"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:text="SEA Catering menghadirkan makanan sehat yang bisa dikustomisasi sesuai selera Anda. Kami melayani pengiriman ke seluruh kota besar di Indonesia, memastikan Anda bisa menikmati hidangan bergizi kapan saja dan di mana saja."
+                android:textAlignment="viewStart"
+                android:textColor="@color/Onyx"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/welcomingSectionDescClosing"
+            android:layout_width="331dp"
+            android:layout_height="70dp"
+            android:fontFamily="@font/inter_18pt_bold"
+            android:text="Dengan SEA Catering, makan sehat jadi mudah dan menyenangkan."
+            android:textColor="@color/Cornsilk"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomingSectionDesc" />
+
+        <LinearLayout
+            android:id="@+id/sectionCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_card_bg"
+            android:layout_marginTop="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomingSectionDescClosing">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Service"
+                    android:textSize="30sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textColor="@color/Onyx"
+                    android:layout_gravity="center_horizontal"/>
+
+                <!--    SERVICE 1-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/service1"
+                    android:layout_width="330dp"
+                    android:layout_height="388dp"
+                    app:cardBackgroundColor="@color/Cornsilk"
+                    app:cardCornerRadius="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    app:cardElevation="6dp"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="397dp"
+                        android:layout_height="458dp"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_marginBottom="8dp"
+                            android:contentDescription="Gambar Services"
+                            android:paddingRight="65dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/service1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Santapan Sesuai Selera Anda"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="305dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="35dp"
+                            android:fontFamily="@font/inter_18pt_regular"
+                            android:text="Kustomisasi makanan memungkinkan Anda menciptakan hidangan sempurna. Pilih bahan, porsi, dan tingkat pedas sesuai selera dan diet Anda. Makan enak dan sehat, sesuai keinginan!"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+<!--            SERVICE 2-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/service2"
+                    android:layout_width="330dp"
+                    android:layout_height="410dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    app:cardBackgroundColor="@color/Cornsilk"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="397dp"
+                        android:layout_height="458dp"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_marginBottom="8dp"
+                            android:contentDescription="Gambar Services"
+                            android:paddingRight="65dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/service2" />
+
+                        <TextView
+                            android:layout_width="289dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Pengiriman ke Seluruh Indonesia"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="305dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="35dp"
+                            android:fontFamily="@font/inter_18pt_regular"
+                            android:text="SEA Catering melayani pengiriman makanan sehat ke berbagai kota besar di seluruh Indonesia, memastikan Anda bisa menikmati menu bergizi kapan saja, di mana saja."
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+<!--            SERVICE 3-->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/service3"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_width="330dp"
+                    android:layout_height="388dp"
+                    app:cardBackgroundColor="@color/Cornsilk"
+                    app:cardCornerRadius="12dp"
+                    android:layout_marginLeft="5dp"
+                    app:cardElevation="6dp"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="397dp"
+                        android:layout_height="458dp"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_marginBottom="8dp"
+                            android:contentDescription="Gambar Services"
+                            android:paddingRight="65dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/service3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Informasi Gizi Lengkap"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="305dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="35dp"
+                            android:fontFamily="@font/inter_18pt_regular"
+                            android:text="Setiap menu dilengkapi dengan detail kandungan nutrisi seperti kalori, protein, karbohidrat, dan lemak untuk membantu Anda makan lebih sehat dan sesuai kebutuhan."
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <include layout="@layout/narahubung"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sectionCard"
+            />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
